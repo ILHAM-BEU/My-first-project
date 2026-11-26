@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+#header > h2 > a > span {
+    color: #F8DBDB;
+}
+#header > h2 > a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #8B0000;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+#header_link > ul {
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+#header_link > ul > li {
+    padding: 10px;
+    color: red;
+}
+#heading {
+    background-color: #FF0000;
+    color: #F8DBDB;
+    padding: 50px;
+}
+main {
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px 30px;
+    padding-top: 40px;
+}
+main > nav {
+    padding-left: 30px;
+}
+main > nav ul {
+    list-style: none;
+}
+main > nav li {
+    padding: 6px 0;
+}
+main > nav a {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+main > div {
+    padding-right: 30px;
+}
+main > div > button > a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+main > div > button{
+    display: inline-block;
+    background-color: #eee;
+    color: black;
+    width: 360px;
+    height: 40px;
+    border: 1px solid #999;
+    text-decoration: none;
+    font-weight: bold;
+}
+main > div p {
+    margin: 15px 0;
+    line-height: 2;
+    color: #959595;
+}
+main > section {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    background-color: #F8DBDB;
+    color: red;
+    padding: 30px 60px;
+    margin-top: 20px;
+}
+main h3, main h4 {
+    color: #8B0000;
+    margin-bottom: 10px;
+}footer {
+     text-align: center;
+     padding: 25px;
+     color: #959595;
+ }
+footer a {
+    color: red;
+    text-decoration: none;
+}
+
